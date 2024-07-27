@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+html,
+body,
+#root,
+.app,
+.content{
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+
+
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+.main{
+  top: 70px;
+}
+
+.create-user{
+  margin-top: 5%;
+}
+
+/* .content{
+  dis
+} */
+
+.css-1iyq7zh-MuiDataGrid-columnHeaders{
+  background: gray;
+}
